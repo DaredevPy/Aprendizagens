@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {   // Declarando as variaveis
     char produto_a[30] = "Produto A";
@@ -16,16 +17,17 @@ int main()
     double valor_total_a;
     double valor_total_b;
 
-    int resultdo_a, resultdo_b;
+    int resultado_a, resultado_b;
+   
     // Exibindo as informacoes iniciais dos produtos
-    printf("Produto %s tem estoque %u e o valor unitario é R$ %.2f\n", produto_a, estoque_a, valor_a);
-    printf("Produto %s tem estoque %u e o valor unitario é R$ %.2f\n", produto_b, estoque_b, valor_b);
+    printf("Produto %s tem estoque %u e o valor unitario é R$: %.2f\n", produto_a, estoque_a, valor_a);
+    printf("Produto %s tem estoque %u e o valor unitario é R$: %.2f\n", produto_b, estoque_b, valor_b);
     
     // Comparação dos estoques dos produtos
-    resultdo_a = estoque_a > estoqueminimo_a;
-    resultdo_b = estoque_b > estoqueminimo_b;
+    resultado_a = estoque_a > estoqueminimo_a;
+    resultado_b = estoque_b > estoqueminimo_b;
     
-    printf("Oproduto %s tem estoque minimo %d\n", produto_a, resultdo_a);
-    printf("Oproduto %s tem estoque minimo %d\n", produto_b, resultdo_b);
+    printf("O produto %s tem estoque minimo %d\n", produto_a, resultado_a);
+    printf("O produto %s tem estoque minimo %d\n", produto_b, resultado_b);
     
 }
