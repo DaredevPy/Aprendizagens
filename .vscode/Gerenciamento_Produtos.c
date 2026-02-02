@@ -16,5 +16,8 @@ int main()
     double valor_total_a;
     double valor_total_b;
 
+    printf("Produto %s tem estoque %u e o valor unitario é R$ %.2f\n", produto_a, estoque_a, valor_a);
+    printf("Produto %s tem estoque %u e o valor unitario é R$ %.2f\n", produto_b, estoque_b, valor_b);
+
   
     }
