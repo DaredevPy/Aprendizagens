@@ -4,11 +4,11 @@ int main()
 float temperatura, umidade;
 unsigned int estoque estoque_min = 1000;
 
-printf("Entre com o valor da temperatura: ");
+printf("Entre com o valor da temperatura: \n");
 scanf("%f", &temperatura);
-printf("Entre com o valor da umidade: ");
+printf("Entre com o valor da umidade: \n");
 scanf("%f", &umidade);
-printf("Entre com o valor do estoque: ");
+printf("Entre com o valor do estoque: \n");
 scanf("%u", &estoque);
 
 if (temperatura > 30){
@@ -24,7 +24,7 @@ if (umidade > 50){
 }
 
 if (estoque < estoque_min){
-    printf("O estoque esta abaixo do valor mínimo\n");
+    printf("O estoque esta abaixo do valor mínimo! \n");
 } {else 
     printf("O estoque esta normal\n");
 }
