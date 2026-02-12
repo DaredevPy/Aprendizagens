@@ -1,5 +1,8 @@
+#include <stdio.h>
 int main() {
   int dia = 3;
+
+    scanf("Digite um número de 1 a 7: %d", &dia);
 
   if (dia == 1) {
     printf("Domingo\n");
