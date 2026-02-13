@@ -21,7 +21,7 @@ int main() {
       scanf("%d", &palpite);
 
       if (palpite == numeroSecreto) {
-        printf("Parabéns! Você acertou!\n");
+        printf("Parabéns! Você adivinhou!\n");
       } else {
         printf("Você errou. O número era %d.\n", numeroSecreto);
       }
