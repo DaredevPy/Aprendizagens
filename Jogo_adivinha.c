@@ -22,8 +22,10 @@ int main() {
 
       if (palpite == numeroSecreto) {
         printf("Parabéns! Você adivinhou!\n");
+        printf("O número secreto era %d.\n", numeroSecreto);
       } else {
         printf("Você errou. O número era %d.\n", numeroSecreto);
+        printf("O número secreto era %d.\n", numeroSecreto);
       }
       break;
     case 2:
