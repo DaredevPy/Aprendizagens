@@ -21,18 +21,19 @@ int main() {
             printf("A média é: %.2f\n", media);
             break;
         case 2:
-            printf("Digite a primeira nota: ");
-            scanf("%f", &nota1);
-            printf("Digite a segunda nota: ");
-            scanf("%f", &nota2);
-            media = (nota1 + nota2) / 2;
-            if (media >= 7.0) {
+            printf("Determinando status do aluno: ");
+            printf("Entre com a media do aluno: ");
+            scanf("%f", &media);
+            
+            if (media >= 7) {
                 printf("Aluno aprovado!\n");
-            } else if (media >= 5.0) {
+            }   else if (media >= 5.0) {
                 printf("Aluno em recuperação!\n");
-            } else {
+            } else {    
                 printf("Aluno reprovado!\n");
             }
+
+            media >= 5.0 ? printf("Aluno aprovado!\n") : printf("Aluno reprovado!\n");
             break;
         case 3:
             printf("Saindo do programa...\n");
@@ -40,10 +41,6 @@ int main() {
         default:
             printf("Opção inválida! Tente novamente.\n");
     }
-
-
-
-
 
     return 0;
 }
