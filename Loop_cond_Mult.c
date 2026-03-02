@@ -5,4 +5,4 @@ int main() {
         printf("i = %d, j = %d\n", i, j);
     }
     return 0;
-}
+} // Loop de condições múltiplas em um loop for.
