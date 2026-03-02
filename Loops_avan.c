@@ -7,4 +7,4 @@ int main() {
    
     }
     return 0;
-}
+} //Multiplas variáveis de controle em um loop for.
